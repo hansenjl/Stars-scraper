@@ -1,6 +1,7 @@
-require_relative "../lib/cli"
-require_relative "../lib/person"
-require_relative "../lib/scraper"
+#!/usr/bin/env ruby
+
+require_relative "../lib/environment"
+
 
 cli_instance = CLI.new
 cli_instance.run

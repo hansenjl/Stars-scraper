@@ -1,9 +1,10 @@
 class Person
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :url, :city, :bio
   @@all = []
-  def initialize(name, age)
+  def initialize(name, age, url)
     @name = name
     @age = age
+    @url = url
     self.save
   end
 
